@@ -24,8 +24,7 @@
       }
     },
     "contains_substantial_metal_parts": {
-      "type": ["boolean", "null"],
-      "description": "Whether the rocket contains substantial metal parts."
+      "type": ["boolean", "null"]
     },
     "propellant_burn_type": {
       "type": ["string", "null"],
@@ -37,8 +36,7 @@
       ]
     },
     "combined_total_impulse_newton_seconds": {
-      "type": ["number", "null"],
-      "description": "Combined total motor impulse in Newton-seconds."
+      "type": ["number", "null"]
     },
     "rocket_class": {
       "type": ["string", "null"],
@@ -50,6 +48,18 @@
         null
       ]
     },
+    "suborbital_trajectory": {
+      "type": ["boolean", "null"],
+      "description": "Whether the rocket is planned to remain on a suborbital trajectory."
+    },
+    "unmanned": {
+      "type": ["boolean", "null"],
+      "description": "Whether the rocket is unmanned."
+    },
+    "creates_hazard": {
+      "type": ["boolean", "null"],
+      "description": "Whether the proposed operation creates an identified hazard to persons, property, or aircraft."
+    },
     "launch_location": {
       "type": ["string", "null"]
     },
@@ -60,8 +70,7 @@
       "type": ["number", "null"]
     },
     "planned_altitude_agl_feet": {
-      "type": ["number", "null"],
-      "description": "Expected maximum altitude above ground level."
+      "type": ["number", "null"]
     },
     "launch_into_clouds": {
       "type": ["boolean", "null"]
@@ -106,6 +115,10 @@
     },
     "waiver_or_authorization_required": {
       "type": ["boolean", "null"]
+    },
+    "waiver_information_submitted_days_before": {
+      "type": ["number", "null"],
+      "description": "Number of days before launch that required waiver information was submitted."
     }
   },
   "required": [
