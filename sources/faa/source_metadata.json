@@ -1,0 +1,29 @@
+{
+  "object_id": "FAA-14CFR-101-SUBPART-C-2026-07-10",
+  "title": "Title 14, Code of Federal Regulations, Part 101, Subpart C—Amateur Rockets",
+  "description": "Federal regulations governing the classification and operation of amateur rockets, including operating limitations, high-power rocket restrictions, FAA notification requirements, and required launch information.",
+  "author_or_issuing_organization": "Federal Aviation Administration, U.S. Department of Transportation",
+  "source_url": "https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-101/subpart-C",
+  "document_type": "Federal regulation",
+  "access_date": "2026-07-14",
+  "version": {
+    "status": "Current electronic version",
+    "current_as_of": "2026-07-10",
+    "title_14_last_amended": "2026-07-06"
+  },
+  "copyright_or_permission_status": "Official United States federal regulatory text that is publicly accessible for reading, citation, and reuse.",
+  "canonical_source_status": true,
+  "authority_level": "Legally binding federal regulation",
+  "scope": "Amateur rocket operations within United States jurisdiction under 14 CFR sections 101.21 through 101.29.",
+  "verification_status": "Verified against the official eCFR webpage on 2026-07-14.",
+  "known_limitations": [
+    "The eCFR is continuously updated and may change when amendments take effect.",
+    "This source does not include all state, local, landowner, fire-code, launch-site, or NAR requirements.",
+    "Some provisions apply only to Class 2 and Class 3 amateur rockets."
+  ],
+  "legal_citation": "14 CFR Part 101, Subpart C; 14 CFR §§ 101.21–101.29",
+  "jurisdiction": "United States",
+  "language": "English",
+  "sha256": null,
+  "sha256_note": "Generate after preserving the exact source snapshot used by the RAG target."
+}
