@@ -1,0 +1,32 @@
+{
+  "rocket_name": "Sample Model Rocket",
+  "total_liftoff_mass_grams": 900,
+  "propellant_mass_grams": 60,
+  "rocket_materials": [
+    "cardboard",
+    "wood",
+    "plastic"
+  ],
+  "contains_substantial_metal_parts": false,
+  "propellant_burn_type": "slow-burning",
+  "combined_total_impulse_newton_seconds": 49.6,
+  "rocket_class": "Unknown",
+  "launch_location": "Example launch field",
+  "launch_latitude": null,
+  "launch_longitude": null,
+  "planned_altitude_agl_feet": 1200,
+  "launch_into_clouds": false,
+  "cloud_coverage_fraction": 0.2,
+  "horizontal_visibility_miles": 8,
+  "launch_between_sunset_and_sunrise": false,
+  "distance_from_airport_boundary_nautical_miles": 8,
+  "controlled_airspace": null,
+  "faa_authorization_obtained": null,
+  "nearest_unassociated_person_or_property_feet": 1600,
+  "responsible_adult_present": true,
+  "responsible_adult_age": 18,
+  "fire_precautions_present": true,
+  "atc_notification_completed": null,
+  "notification_hours_before_launch": null,
+  "waiver_or_authorization_required": null
+}
