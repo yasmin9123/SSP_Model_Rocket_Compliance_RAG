@@ -1,0 +1,21 @@
+TITLE 14, CODE OF FEDERAL REGULATIONS
+PART 101, SUBPART C—AMATEUR ROCKETS
+
+Canonical source:
+https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-101/subpart-C
+
+Snapshot current as of: 2026-07-10
+Accessed: 2026-07-14
+
+SECTIONS INCLUDED
+
+§ 101.21 Applicability
+§ 101.22 Definitions
+§ 101.23 General operating limitations
+§ 101.25 Operating limitations for Class 2—High-Power Rockets and Class 3—Advanced High-Power Rockets
+§ 101.27 ATC notification for all launches
+§ 101.29 Information requirements
+
+SOURCE TEXT
+
+[Paste the exact regulatory text here without summarizing or rewriting it.]
