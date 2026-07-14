@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Model Rocket Compliance Input",
+  "description": "Information required to perform a preliminary FAA model rocket compliance check.",
+  "type": "object",
+  "properties": {
+    "rocket_name": {
+      "type": "string",
+      "description": "Name of the rocket."
+    },
+    "total_liftoff_mass_grams": {
+      "type": ["number", "null"],
+      "description": "Total rocket mass at liftoff, including propellant, in grams."
+    },
+    "propellant_mass_grams": {
+      "type": ["number", "null"],
+      "description": "Total propellant mass in grams."
+    },
+    "rocket_materials": {
+      "type": ["array", "null"],
+      "description": "Main materials used in the rocket.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "contains_substantial_metal_parts": {
+      "type": ["boolean", "null"],
+      "description": "Whether the rocket contains substantial metal parts."
+    },
+    "propellant_burn_type": {
+      "type": ["string", "null"],
+      "enum": [
+        "slow-burning",
+        "not slow-burning",
+        "unknown",
+        null
+      ]
+    },
+    "combined_total_impulse_newton_seconds": {
+      "type": ["number", "null"],
+      "description": "Combined total motor impulse in Newton-seconds."
+    },
+    "rocket_class": {
+      "type": ["string", "null"],
+      "enum": [
+        "Class 1",
+        "Class 2",
+        "Class 3",
+        "Unknown",
+        null
+      ]
+    },
+    "launch_location": {
+      "type": ["string", "null"]
+    },
+    "launch_latitude": {
+      "type": ["number", "null"]
+    },
+    "launch_longitude": {
+      "type": ["number", "null"]
+    },
+    "planned_altitude_agl_feet": {
+      "type": ["number", "null"],
+      "description": "Expected maximum altitude above ground level."
+    },
+    "launch_into_clouds": {
+      "type": ["boolean", "null"]
+    },
+    "cloud_coverage_fraction": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "horizontal_visibility_miles": {
+      "type": ["number", "null"]
+    },
+    "launch_between_sunset_and_sunrise": {
+      "type": ["boolean", "null"]
+    },
+    "distance_from_airport_boundary_nautical_miles": {
+      "type": ["number", "null"]
+    },
+    "controlled_airspace": {
+      "type": ["boolean", "null"]
+    },
+    "faa_authorization_obtained": {
+      "type": ["boolean", "null"]
+    },
+    "nearest_unassociated_person_or_property_feet": {
+      "type": ["number", "null"]
+    },
+    "responsible_adult_present": {
+      "type": ["boolean", "null"]
+    },
+    "responsible_adult_age": {
+      "type": ["integer", "null"]
+    },
+    "fire_precautions_present": {
+      "type": ["boolean", "null"]
+    },
+    "atc_notification_completed": {
+      "type": ["boolean", "null"]
+    },
+    "notification_hours_before_launch": {
+      "type": ["number", "null"]
+    },
+    "waiver_or_authorization_required": {
+      "type": ["boolean", "null"]
+    }
+  },
+  "required": [
+    "rocket_name"
+  ],
+  "additionalProperties": false
+}
