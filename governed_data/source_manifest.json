@@ -1,0 +1,29 @@
+{
+  "target_id": "SSP-MODEL-ROCKET-COMPLIANCE-RAG-V1",
+  "target_name": "SSP Model Rocket Compliance RAG",
+  "repository": "SSP_Model_Rocket_Compliance_RAG",
+  "purpose": "Support preliminary checks of proposed model rockets and launch plans against authoritative FAA and NAR requirements.",
+  "authoritative_sources": [
+    {
+      "source_id": "FAA-14CFR-101-SUBPART-C-2026-07-10",
+      "authority": "Federal Aviation Administration",
+      "role": "Federal legal and airspace requirements",
+      "metadata_path": "sources/faa/source_metadata.json",
+      "text_path": "sources/faa/source_text.txt",
+      "status": "active"
+    }
+  ],
+  "allowed_results": [
+    "PASS",
+    "FAIL",
+    "INSUFFICIENT_INFORMATION",
+    "NOT_APPLICABLE",
+    "HUMAN_REVIEW_REQUIRED"
+  ],
+  "limitations": [
+    "The target provides preliminary compliance support and not official FAA approval.",
+    "The target does not replace review by a range safety officer.",
+    "The target does not currently cover state, local, landowner, fire-code, or launch-site-specific requirements.",
+    "Results depend on the accuracy and completeness of information supplied by the user."
+  ]
+}
